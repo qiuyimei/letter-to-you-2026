@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3efe7">
+  <meta name="description" content="一封写给朋友的信。关于相遇、珍惜，以及真诚地喜欢一个人本身。">
+  <title>2026 · 注定分开的「表白」信</title>
+  <style>
+    :root{--bg:#f3efe7;--paper:#fffcf6;--ink:#343b35;--muted:#777b72;--rose:#a65f65;--rose-soft:#f1e2de;--line:#ddd9cf;--green:#4b5c4e;--serif:"Noto Serif SC","Source Han Serif SC","Songti SC","STSong","SimSun",serif;--sans:"Microsoft YaHei","PingFang SC",system-ui,sans-serif;--letter-size:18px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:36px}body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}button,input,select{font:inherit}button,a,input,select{-webkit-tap-highlight-color:transparent}button{cursor:pointer}button:disabled{cursor:default;opacity:.45}a{color:inherit;text-decoration:none}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--rose);outline-offset:5px}button{color:inherit}svg{display:block}button svg{flex-shrink:0}button{transition:background .2s,color .2s,transform .2s}button:hover:not(:disabled){transform:translateY(-1px)}::selection{background:#ead4d1;color:var(--ink)}[hidden]{display:none!important}
+    .skip-link{position:fixed;top:10px;left:10px;z-index:50;padding:12px;background:var(--paper);transform:translateY(-160%)}.skip-link:focus{transform:none}
+    .masthead{max-width:1240px;margin:auto;padding:30px 48px 24px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line)}.brand{display:flex;gap:12px;align-items:center}.brand-mark{color:var(--rose)}.brand-name{font-family:var(--serif);font-size:21px;letter-spacing:4px}.brand-sub{font-size:10px;color:var(--muted);letter-spacing:3px;margin-top:5px}.header-actions{display:flex;gap:10px}.quiet-btn{border:1px solid transparent;background:transparent;min-height:40px;padding:8px 12px;border-radius:6px;display:inline-flex;align-items:center;justify-content:center;gap:7px;font-size:12px;color:var(--muted)}.quiet-btn:hover,.quiet-btn[aria-pressed="true"]{background:#e9e5dc;color:var(--green)}
+    .layout{max-width:1240px;margin:0 auto;padding:42px 48px 150px;display:grid;grid-template-columns:148px minmax(0,790px) 1fr;gap:30px;align-items:start}.margin-notes{position:sticky;top:42px;padding-top:40px}.note-label{font-size:10px;letter-spacing:3px;color:var(--muted);margin-bottom:26px}.chapter-nav{display:grid;gap:5px}.chapter-link{position:relative;display:flex;gap:17px;align-items:center;padding:12px 0;color:var(--muted);font-family:var(--serif);font-size:14px;letter-spacing:3px}.chapter-link::before{content:"";position:absolute;left:-15px;top:50%;width:4px;height:4px;background:var(--rose);border-radius:50%;opacity:0}.chapter-link[aria-current="location"]{color:var(--rose)}.chapter-link[aria-current="location"]::before{opacity:1}.chapter-index{font-family:Georgia,serif;font-size:11px;letter-spacing:1px}.margin-quote{margin-top:65px;padding-top:24px;border-top:1px solid var(--line);font-size:12px;line-height:2.1;color:var(--muted);letter-spacing:1px}.margin-quote em{font-style:normal;color:var(--rose)}.page-note{writing-mode:vertical-rl;justify-self:end;font-family:var(--serif);font-size:11px;color:#8a8d82;letter-spacing:5px;padding-top:45px}
+    .paper{position:relative;background:var(--paper);border:1px solid #e3dfd5;box-shadow:0 7px 22px #47443106,0 25px 60px #47443103;min-width:0}.paper::before{content:"";height:5px;position:absolute;top:-6px;left:7px;right:7px;background:#faf7ef;border:1px solid #e3dfd5;border-bottom:0}.letter-head{position:relative;overflow:hidden;padding:48px 58px 30px}.eyebrow{display:flex;gap:12px;align-items:center;font-size:10px;letter-spacing:3px;color:var(--rose)}.eyebrow::before{content:"";width:23px;height:1px;background:var(--rose)}h1{font-family:var(--serif);font-weight:400;font-size:clamp(36px,4vw,54px);letter-spacing:5px;line-height:1.55;margin:24px 0 20px;position:relative;z-index:1}h1 span{color:var(--rose)}.intro{font-size:12px;line-height:2;color:var(--muted);margin:0;max-width:440px}.intro span{color:var(--rose)}.head-meta{display:flex;align-items:center;gap:16px;margin-top:29px;color:var(--muted);font-size:10px;letter-spacing:1px}.head-meta .dot{width:3px;height:3px;border-radius:50%;background:#aaa99e}.botanical{position:absolute;width:226px;height:304px;right:-18px;top:1px;opacity:.9;transform:rotate(2deg);pointer-events:none}.seal{position:absolute;right:40px;bottom:32px;width:52px;height:52px;border:1px solid #b8757773;border-radius:50%;color:var(--rose);display:flex;align-items:center;justify-content:center;font-family:Georgia,serif;font-size:15px;transform:rotate(-9deg);letter-spacing:1px}.letter-rule{display:flex;align-items:center;gap:12px;color:var(--rose);margin:0 58px}.letter-rule::before,.letter-rule::after{content:"";height:1px;background:var(--line);flex:1}.letter-rule svg{width:14px;height:14px}
+    .letter-body{padding:16px 58px 0}.salutation{font-size:var(--letter-size);font-family:var(--serif);letter-spacing:2px;margin:28px 0 20px}.letter-section{scroll-margin-top:32px}.section-head{display:flex;align-items:center;justify-content:space-between;margin:35px 0 19px}.section-heading{font-size:10px;font-weight:400;color:var(--rose);letter-spacing:3px;display:flex;align-items:center;gap:11px;margin:0}.section-heading span{font-family:Georgia,serif;font-size:12px;letter-spacing:1px}.letter-paragraph{font-family:var(--serif);font-size:var(--letter-size);line-height:2.15;letter-spacing:.6px;margin:0 0 26px;position:relative;text-align:justify;overflow-wrap:anywhere}.closing{padding:21px 58px 40px}.closing-flower{margin:6px auto 18px;color:var(--rose);width:26px}.closing-quote{font-family:var(--serif);font-size:21px;letter-spacing:3px;text-align:center;color:var(--green);margin:0 0 25px}.signature{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line);padding-top:22px;font-size:11px;color:var(--muted);letter-spacing:2px}.signature span{font-family:Georgia,serif;font-size:15px;color:var(--rose);letter-spacing:2px}.paper-foot{padding:15px 58px;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;font-size:10px;color:var(--muted);letter-spacing:1px;background:#f6f2e955}.paper-foot a{display:flex;align-items:center;gap:6px;min-height:30px}.paper-foot a:hover{color:var(--rose)}.outside-note{grid-column:2;margin:1px 0 0;font-size:10px;letter-spacing:2px;color:#878a7e;text-align:center}
+    .music-dock{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);width:min(760px,calc(100% - 36px));z-index:20;background:#fffcf6f5;backdrop-filter:blur(16px);border:1px solid #d9d6cc;border-radius:10px;box-shadow:0 10px 40px #343b3512;padding:16px 20px}.music-row{display:flex;align-items:center;gap:16px}.music-play{display:grid;place-items:center;width:44px;height:44px;flex-shrink:0;border:0;border-radius:50%;background:var(--green);color:#fffdf7}.music-play:hover:not(:disabled){background:#3b4d3e}.music-play svg{width:18px;height:18px}.music-info{flex:1;min-width:0}.music-name{font-family:var(--serif);font-size:14px;letter-spacing:.5px;margin-bottom:6px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.music-status{font-size:10px;line-height:1.5;color:var(--muted)}.choose-music{border:1px solid #d2d5c7;background:#eeeee4;padding:10px 13px;min-height:37px;border-radius:5px;color:var(--green);font-size:11px;display:flex;align-items:center;justify-content:center;gap:6px;white-space:nowrap;flex-shrink:0}.choose-music:hover{background:#e4e8db}.volume-control{display:flex;align-items:center;gap:8px;border-left:1px solid var(--line);padding-left:14px;color:var(--muted)}.volume{width:66px;accent-color:var(--rose);height:4px;cursor:pointer}.volume-label{font-size:9px;color:var(--muted);width:28px}.loop-toggle,.remove-music{width:29px;height:32px;display:grid;place-items:center;border:0;background:transparent;color:var(--muted);border-radius:4px;flex-shrink:0}.loop-toggle[aria-pressed="true"]{color:var(--rose);background:var(--rose-soft)}.remove-music:hover{background:#eee7df;color:var(--rose)}.music-timeline{display:flex;align-items:center;gap:12px;padding:13px 0 0 60px}.music-timeline output{font-size:9px;font-variant-numeric:tabular-nums;color:var(--muted);min-width:29px}.music-timeline output:last-child{text-align:right}.music-seek{appearance:none;flex:1;min-width:20px;height:3px;border-radius:5px;background:linear-gradient(to right,var(--rose) var(--progress,0%),#e7e3d9 var(--progress,0%));margin:0;cursor:pointer}.music-seek::-webkit-slider-thumb{appearance:none;width:10px;height:10px;border:2px solid var(--paper);background:var(--rose);border-radius:50%;box-shadow:0 0 0 1px #a65f6540}.music-seek::-moz-range-thumb{width:8px;height:8px;border:2px solid var(--paper);background:var(--rose);border-radius:50%}.toast{position:fixed;bottom:150px;left:50%;transform:translateX(-50%);max-width:calc(100% - 40px);width:max-content;background:var(--green);color:var(--paper);padding:13px 20px;border-radius:7px;font-size:12px;line-height:1.8;z-index:30;box-shadow:0 4px 15px #343b3512}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}body.large-type{--letter-size:21px}body.focus-mode .margin-notes,body.focus-mode .page-note,body.focus-mode .botanical{visibility:hidden}body.focus-mode .layout{grid-template-columns:minmax(0,790px);justify-content:center}body.focus-mode .margin-notes,body.focus-mode .page-note{display:none}body.focus-mode .outside-note{grid-column:1}
+    @media(max-width:760px){.music-dock{bottom:12px;width:calc(100% - 24px);padding:13px 14px}.music-row{display:grid;grid-template-columns:40px minmax(0,1fr) auto;column-gap:11px;row-gap:9px}.music-play{width:40px;height:40px;grid-column:1;grid-row:1 / 3}.music-info{grid-column:2;grid-row:1}.music-name{font-size:12px;margin-bottom:4px}.music-status{font-size:9px}.choose-music{grid-column:3;grid-row:1;font-size:10px;min-height:32px;padding:8px 10px;gap:4px}.volume-control{grid-column:2;grid-row:2;border:0;padding:0;gap:7px}.volume{width:70px}.loop-toggle{grid-column:3;grid-row:2;justify-self:end;width:26px;height:25px;margin-right:30px}.remove-music{grid-column:3;grid-row:2;justify-self:end;width:24px;height:25px}.music-timeline{padding:12px 0 0 0;gap:9px}.toast{bottom:162px}}
+
+    @media(min-width:1500px){.layout{padding-top:52px}.letter-head{padding-top:56px}}
+    @media(max-width:1050px){.layout{grid-template-columns:110px minmax(0,790px);gap:25px;padding-left:32px;padding-right:32px}.page-note{display:none}.masthead{padding-left:32px;padding-right:32px}.letter-head{padding:40px 42px 28px}.letter-body{padding-left:42px;padding-right:42px}.letter-rule{margin:0 42px}.closing{padding-left:42px;padding-right:42px}.paper-foot{padding-left:42px;padding-right:42px}.botanical{width:195px;right:-35px;opacity:.65}h1{font-size:43px}.seal{right:30px}}
+    @media(max-width:760px){.masthead{padding:21px 22px 18px}.brand-name{font-size:19px}.brand-sub{font-size:9px}.header-actions{gap:0}.quiet-btn{padding:7px 9px;font-size:11px}.layout{display:block;padding:28px 20px 144px}.margin-notes,.page-note{display:none}.letter-head{padding:32px 28px 26px}.eyebrow{font-size:9px;letter-spacing:2px}h1{font-size:39px;letter-spacing:3px;margin-top:19px;margin-bottom:16px}.intro{font-size:11px;max-width:310px}.botanical{width:166px;right:-47px;top:-21px;opacity:.5}.seal{width:42px;height:42px;right:25px;bottom:23px;font-size:12px}.head-meta{gap:10px;font-size:9px;letter-spacing:0;margin-top:22px}.letter-rule{margin:0 28px}.letter-body{padding:12px 28px 0}.salutation{margin:24px 0 16px}.letter-paragraph{font-size:var(--letter-size);letter-spacing:.2px;line-height:2.05;margin-bottom:23px;text-align:left}.section-head{margin-top:26px;margin-bottom:14px}.closing{padding:15px 28px 29px}.closing-quote{font-size:18px;letter-spacing:2px}.signature{font-size:10px;letter-spacing:1px}.paper-foot{padding:11px 25px;font-size:9px;letter-spacing:0}.outside-note{margin-top:22px;font-size:9px}.toast{bottom:121px}body{--letter-size:17px}body.large-type{--letter-size:20px}body.focus-mode .layout{display:block}}
+    @media(max-width:380px){.layout{padding-left:12px;padding-right:12px}.letter-head,.letter-body,.closing{padding-left:23px;padding-right:23px}.letter-rule{margin-left:23px;margin-right:23px}h1{font-size:34px}.botanical{width:134px;opacity:.22}.quiet-btn .btn-label{display:none}.paper-foot{padding-left:20px;padding-right:20px}.head-meta{gap:8px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+    @media print{body{background:#fff;color:#222}.masthead,.margin-notes,.page-note,.music-dock,.outside-note,.paper-foot,.toast,.skip-link{display:none!important}.layout{display:block;padding:0;max-width:none}.paper{border:0;box-shadow:none}.paper::before{display:none}.letter-head{padding:20px 32px}.letter-body{padding:0 32px}.letter-rule{margin:0 32px}.closing{padding:15px 32px}.letter-paragraph{font-size:12pt;line-height:1.9}.section-head{break-after:avoid}.letter-paragraph{orphans:3;widows:3}}
+  </style>
+</head>
+<body id="top">
+  <svg aria-hidden="true" width="0" height="0" style="position:absolute;overflow:hidden"><defs>
+    <symbol id="i-flower" viewBox="0 0 24 24"><path d="M12 10C4 1 3 12 10 12C1 20 12 21 12 14C20 23 21 12 14 12C23 4 12 3 12 10Z" fill="none" stroke="currentColor" stroke-width="1.1"/><circle cx="12" cy="12" r="1.5" fill="currentColor"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z" fill="currentColor"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></symbol>
+    <symbol id="i-focus" viewBox="0 0 24 24"><path d="M8 4H4v4m12-4h4v4M4 16v4h4m12-4v4h-4" stroke="currentColor" fill="none" stroke-width="1.4" stroke-linecap="round"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="m6 12 6-6 6 6M12 6v13" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></symbol>
+    <symbol id="i-volume" viewBox="0 0 24 24"><path d="m11 5-6 5H2v4h3l6 5ZM15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14" stroke="currentColor" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-loop" viewBox="0 0 24 24"><path d="M5 8h14l-3-3m3 3-3 3M19 16H5l3 3m-3-3 3-3M3 8v5m18-2v5" stroke="currentColor" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs></svg>
+  <a class="skip-link" href="#letter">跳到正文</a>
+  <header class="masthead">
+    <a class="brand" href="#top" aria-label="一纸心意，回到开头"><svg class="brand-mark" width="30" height="30" aria-hidden="true"><use href="#i-flower"/></svg><div><div class="brand-name">一纸心意</div><div class="brand-sub">写给珍贵的你</div></div></a>
+    <div class="header-actions"><button class="quiet-btn" id="fontToggle" type="button" aria-pressed="false" title="切换大字阅读"><span aria-hidden="true" style="font-family:Georgia,serif;font-size:18px">Aa</span><span class="btn-label">大字</span></button><button class="quiet-btn" id="focusToggle" type="button" aria-pressed="false" title="切换专注阅读"><svg width="17" height="17" aria-hidden="true"><use href="#i-focus"/></svg><span class="btn-label">专注</span></button></div>
+  </header>
+  <main class="layout">
+    <aside class="margin-notes" aria-label="信的目录"><div class="note-label">这封信里</div><nav class="chapter-nav"><a class="chapter-link" href="#chapter-1" aria-current="location"><span class="chapter-index">01</span>相遇</a><a class="chapter-link" href="#chapter-2"><span class="chapter-index">02</span>珍惜</a><a class="chapter-link" href="#chapter-3"><span class="chapter-index">03</span>认可</a><a class="chapter-link" href="#chapter-4"><span class="chapter-index">04</span>祝愿</a></nav><div class="margin-quote">因为你弥足珍贵，<br>因此我<em>弥足珍惜</em>。<br><br><span style="font-family:Georgia,serif;font-size:10px;letter-spacing:2px">A LETTER TO YOU</span></div></aside>
+    <article class="paper" aria-labelledby="letterTitle">
+      <header class="letter-head">
+        <svg class="botanical" viewBox="0 0 230 320" aria-hidden="true">
+          <g fill="none" stroke="#7c8771" stroke-width="1.1" stroke-linecap="round"><path d="M231 294C194 244 183 201 160 171C126 127 143 67 114 19M170 187C190 163 197 134 192 108M149 153C111 153 86 134 61 118M177 207C151 215 135 213 117 208M140 99C161 80 169 60 164 37M136 111C107 91 93 70 93 52"/><path d="M161 172c-27-10-31-22-27-39 19 8 27 19 27 39ZM193 135c15-14 18-32 12-44-12 14-16 28-12 44ZM152 213c-11 17-25 19-38 15 9-14 23-17 38-15ZM120 152c-12-17-24-20-38-14 11 14 22 17 38 14ZM163 60c12-7 15-19 13-31-12 7-15 20-13 31Z" fill="#bdc6ad" fill-opacity=".26"/></g>
+          <g stroke="#b57877" stroke-width=".9" fill="#edd5cc"><path d="M113 34c-19-7-20-22-11-25 8-2 12 7 11 25Z"/><path d="M113 34c-3-21 8-31 15-24 6 7-1 17-15 24Z"/><path d="M113 34c20-14 32-6 27 3-4 8-14 5-27-3Z"/><path d="M113 34c15 8 10 20 2 16-6-3-6-10-2-16Z"/><path d="M113 34c-15 8-24 2-19-5 5-6 14-4 19 5Z"/>
+          <path d="M65 119c-14-5-17-16-10-19 7-2 10 5 10 19Z"/><path d="M65 119c-4-18 6-24 11-18 5 6-1 13-11 18Z"/><path d="M65 119c13-9 24-2 20 4-3 6-13 2-20-4Z"/><path d="M65 119c10 8 5 16-1 12-4-2-4-8 1-12Z"/><path d="M65 119c-11 6-20 0-15-5 4-5 11-1 15 5Z"/>
+          <path d="M192 110c-17-9-16-22-8-22 8 0 10 10 8 22Z"/><path d="M192 110c-1-18 9-23 14-16 4 6-4 12-14 16Z"/><path d="M192 110c16-7 23 0 17 6-5 5-12 0-17-6Z"/><path d="M192 110c8 11 2 18-4 13-3-3-3-9 4-13Z"/><path d="M192 110c-13 4-18-4-12-8 5-4 10 2 12 8Z"/>
+          </g><g fill="#b67f73"><circle cx="113" cy="34" r="2.5"/><circle cx="65" cy="119" r="2"/><circle cx="192" cy="110" r="2"/></g><g fill="#e1b7ad" opacity=".7"><path d="M182 54q-12 3-7 12 12-1 7-12Z"/><path d="M91 191q-13-2-12 8 13 5 12-8Z"/><path d="M213 221q-12 4-6 13 12-2 6-13Z"/></g>
+        </svg>
+        <div class="eyebrow">2026 · 一封写给朋友的信</div>
+        <h1 id="letterTitle">注定分开的<br><span>「表白」信</span></h1>
+        <p class="intro">PS. 表白固然有表达爱意的意思，<br>但是这里的表白，是<span>诉说衷肠</span>哦。</p>
+        <div class="head-meta"><span>致：珍贵的你</span><span class="dot"></span><span id="wordCount">慢慢读，不着急</span></div>
+        <div class="seal" aria-hidden="true">2026</div>
+      </header>
+      <div class="letter-rule" aria-hidden="true"><svg><use href="#i-flower"/></svg></div>
+      <div class="letter-body" id="letter"><p class="salutation">我的朋友：</p>
+        <section class="letter-section" id="chapter-1" aria-labelledby="chapter-title-1"><div class="section-head"><h2 class="section-heading" id="chapter-title-1"><span>01</span>相遇</h2></div><p class="letter-paragraph">在这个世界上两个人相遇是非常难的事，只要有一点行差踏错就会遇不到，世界这么大人这么多，对于一个人来说，连成为他人人生的过客都显得弥足珍贵，更不要说认识的还可以的你我，你和我，从以前到现在，只要有一点点的改动，人生的轨迹就会出现无数次的方向转折失误，这样繁多细微的可能使我无法与你相遇、无法与你认识（甚至不敢称为熟识）。</p>
+<p class="letter-paragraph">因此，我与你的遇见从某种角度上来说，就是在无数条岔路中巧合地躲掉了其他所有的可能，也许我们失去的会是更契合的朋友、又或者是更差的交友经历，但总而言之，这一刻的我从这种极细微的相遇可能性中遇见了你，这就可以被称为是  为你而来。</p></section>
+<section class="letter-section" id="chapter-2" aria-labelledby="chapter-title-2"><div class="section-head"><h2 class="section-heading" id="chapter-title-2"><span>02</span>珍惜</h2></div><p class="letter-paragraph">因为你弥足珍贵，因此我弥足珍惜。因为遇到的是你，又或者说，恰恰遇到的是你，又巧合我们有相遇认识的机会，我们就成为了朋友，所以我也以真诚的友谊之心待你，绝无他意。但是出于对你的珍惜，很多时候也会忧虑，有一句话说得好，以本人为中心向四周画一个圆，这个圆之中便是你的社交圈。</p>
+<p class="letter-paragraph">我想，当我们没有这样一个共同的圆的时候大概就是分道扬镳的时候，但是分开本来就是相遇的常态，就像是花开必定会谢，因此观花专心于它的盛开就好，那么人们相遇一定会分开，因此只需要记得相处中的快乐就好……这样的常态多么正常呢？大家本来都应该直接接受吧，但是还是会有一些不该有的难过，大概是因为我打心里觉得你是一个很好很重要的人。</p></section>
+<section class="letter-section" id="chapter-3" aria-labelledby="chapter-title-3"><div class="section-head"><h2 class="section-heading" id="chapter-title-3"><span>03</span>认可</h2></div><p class="letter-paragraph">如果人真的是利己主义者的话，那么我的难过，也许可以被定性为，在我的潜意识里，真实的认为失去你的存在，对我来说是一种巨大的损失。如果让我想一句话去表明我对你的心意，我想我应该说，“我喜欢你”，这种喜欢不是说你是谁的谁，而是因为你是你本身。它并非那种所谓各种感情的喜欢，不是亲情，不是爱情，不是友情，而是真诚的一个人对一个人的喜欢，它又有一个别称叫作认可、叫作肯定。它是广大的、广博的，可以应予给任何人的，却也是稀少的、罕见的，只有特定的被自身认可的用心对待的人才能够拥有的。</p>
+<p class="letter-paragraph">其实我不知道我在你的世界里占据着一个怎样的地位，有多大的可替代性，这种想法难免会带来一些伤感，但是这种伤感也并不意味着，我想要在你的人生里占据多么重要的地位。恰恰相反，我把我的真诚捧给你，却不期待你能够有所反馈，因为你的存在对我来说本身就是世界赠予我的独一份美好，能够遇见这么好的你对我来说是人世间的小确幸。</p>
+<p class="letter-paragraph">我不会成为你的独一无二，也不能活成你的独一无二，前者是现实，后者是深思熟虑。现实很骨感，人海茫茫，我只是其中微不足道的一粟；至于深思熟虑，我想，如果我成为你的独一无二，那么你离开我也会很难受吧，我这么喜欢你，因此并不想成为你的软肋，不想给你带来难过。</p></section>
+<section class="letter-section" id="chapter-4" aria-labelledby="chapter-title-4"><div class="section-head"><h2 class="section-heading" id="chapter-title-4"><span>04</span>祝愿</h2></div><p class="letter-paragraph">你很好，你很重要，你值得这个世界上所有美好的一切，因此不要徘徊，向前进就好，我相信所有的美好都会奔你而来，我很喜欢一句话，叫做“让花成花，让树成树”，那么请你长成你喜欢的样子，你认可的样子，我觉得这就是生活最好的安排。我的朋友，未来的我们依旧会经过一条条岔路，做出各种各样的选择，也许细水长流，又也许迎来送往……事实上，我们因为地域、经历、时间、课程的各种碰撞，以后大概是难遇的。</p>
+<p class="letter-paragraph">你的存在本身就叫人欢喜。失去你是我的损失，我伤感难耐，因此我也稍显矫情的发了这些语录，我没有什么可为你做的，那么就请你稍微记住我今天对你说的这些话吧，当你有的时候有一点点不开心的时候，请想一想我。这样微不足道的我，在与你的相遇中也曾被治愈过无数次瞬间，那么你又在无意间疗愈过多少人的心灵呢？</p>
+<p class="letter-paragraph">你真的很好，所以请让自己永远的开心、幸福吧！2026年快乐，作为朋友，我真实的看见你，并真切的喜欢着认可着你哟！</p></section>
+      </div>
+      <div class="closing"><svg class="closing-flower" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-flower"/></svg><p class="closing-quote">让花成花，让树成树。</p><div class="signature">真诚地，写给你。<span>2026</span></div></div>
+      <footer class="paper-foot"><span>愿你开心，也愿你幸福。</span><a href="#top">回到开头<svg width="12" height="12" aria-hidden="true"><use href="#i-up"/></svg></a></footer>
+    </article>
+    <div class="page-note" aria-hidden="true">你的存在本身就叫人欢喜</div>
+    <p class="outside-note">相遇本就珍贵 · 谢谢你，出现在我的世界里</p>
+  </main>
+  <noscript><p style="padding:0 24px 140px;text-align:center">信件可以正常阅读。开启 JavaScript 后可使用本地配乐。</p></noscript>
+  <section class="music-dock" id="musicDock" aria-label="本地配乐播放器" hidden>
+    <input type="file" id="musicFile" accept="audio/*,.mp3,.wav,.m4a,.ogg,.flac,.aac" hidden>
+    <div class="music-row">
+      <button class="music-play" id="musicPlay" type="button" aria-label="播放配乐" aria-pressed="false" disabled><svg aria-hidden="true"><use href="#i-play"/></svg></button>
+      <div class="music-info"><div class="music-name" id="musicName">给这封信添一点配乐</div><div class="music-status" id="musicStatus" role="status">选择本地音乐 · 文件不会上传</div></div>
+      <button class="choose-music" id="chooseMusic" type="button"><svg width="13" height="13" aria-hidden="true"><use href="#i-plus"/></svg><span id="chooseMusicLabel">选择音乐</span></button>
+      <div class="volume-control"><svg width="15" height="15" aria-hidden="true"><use href="#i-volume"/></svg><label class="sr-only" for="volume">配乐音量</label><input class="volume" id="volume" type="range" min="0" max="100" value="20"><output class="volume-label" id="volumeLabel" for="volume">20%</output></div>
+      <button class="loop-toggle" id="loopToggle" type="button" aria-label="关闭单曲循环" aria-pressed="true" title="单曲循环已开启"><svg width="16" height="16" aria-hidden="true"><use href="#i-loop"/></svg></button>
+      <button class="remove-music" id="removeMusic" type="button" aria-label="移除当前配乐" title="移除当前配乐" hidden><svg width="14" height="14" aria-hidden="true"><use href="#i-close"/></svg></button>
+    </div>
+    <div class="music-timeline" id="musicTimeline" hidden><output id="currentTime">0:00</output><label class="sr-only" for="musicSeek">配乐播放进度</label><input class="music-seek" id="musicSeek" type="range" min="0" max="1000" value="0" step="1" disabled><output id="duration">--:--</output></div>
+    <audio id="musicAudio" preload="metadata" loop></audio>
+  </section>
+  <div class="toast" id="toast" role="status" hidden></div>
+  <script>
+    (() => {
+  'use strict';
+  const $ = id => document.getElementById(id);
+  const preferences = {};
+  const preferencesKey = 'letter-to-you:preferences:v2';
+  try { Object.assign(preferences, JSON.parse(localStorage.getItem(preferencesKey)) || {}); } catch (_) { /* Storage is optional. */ }
+  function savePreference(key, value) {
+    preferences[key] = value;
+    try { localStorage.setItem(preferencesKey, JSON.stringify(preferences)); } catch (_) { /* Private browsing may deny storage. */ }
+  }
+  let toastTimer;
+  function notify(message) {
+    clearTimeout(toastTimer); $('toast').textContent = message; $('toast').hidden = false;
+    toastTimer = setTimeout(() => { $('toast').hidden = true; }, 5500);
+  }
+  const characterCount = [...document.querySelectorAll('.letter-paragraph')].reduce((count, paragraph) => count + paragraph.textContent.replace(/\s/g, '').length, 0);
+  $('wordCount').textContent = `${characterCount.toLocaleString('zh-CN')} 字 · 约 ${Math.ceil(characterCount / 300)} 分钟阅读`;
+  for (const [id, className, key] of [['fontToggle','large-type','large'],['focusToggle','focus-mode','focus']]) {
+    const button = $(id);
+    if (preferences[key] === true) { document.body.classList.add(className); button.setAttribute('aria-pressed','true'); }
+    button.addEventListener('click', () => {
+      const enabled = document.body.classList.toggle(className);
+      button.setAttribute('aria-pressed', String(enabled)); savePreference(key, enabled);
+    });
+  }
+  if ('IntersectionObserver' in window) {
+    const visible = new Map();
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => visible.set(entry.target.id, entry.isIntersecting));
+      const section = [...document.querySelectorAll('.letter-section')].find(section => visible.get(section.id));
+      if (!section) return;
+      document.querySelectorAll('.chapter-link').forEach(link => {
+        if (link.hash === `#${section.id}`) link.setAttribute('aria-current','location');
+        else link.removeAttribute('aria-current');
+      });
+    }, {rootMargin:'-10% 0px -45% 0px', threshold:0});
+    document.querySelectorAll('.letter-section').forEach(section => observer.observe(section));
+  }
+
+  // Local audio stays in this browser tab. No uploads, remote music, or voice APIs.
+  const audio = $('musicAudio');
+  let musicURL = null;
+  let generation = 0;
+  let seeking = false;
+  $('musicDock').hidden = false;
+  const icon = (button, name) => button.querySelector('use').setAttribute('href', `#i-${name}`);
+  const durationAvailable = () => Number.isFinite(audio.duration) && audio.duration > 0;
+  function formatTime(seconds) {
+    if (!Number.isFinite(seconds) || seconds < 0) return '--:--';
+    const value = Math.floor(seconds);
+    return `${Math.floor(value / 60)}:${String(value % 60).padStart(2,'0')}`;
+  }
+  function renderProgress() {
+    const available = durationAvailable();
+    $('musicSeek').disabled = !available;
+    const percent = available ? Math.max(0, Math.min(100, audio.currentTime / audio.duration * 100)) : 0;
+    if (!seeking) {
+      $('musicSeek').value = String(Math.round(percent * 10));
+      $('musicSeek').style.setProperty('--progress', `${percent}%`);
+    }
+    $('currentTime').textContent = formatTime(audio.currentTime || 0);
+    $('duration').textContent = formatTime(audio.duration);
+    $('musicSeek').setAttribute('aria-valuetext', `${formatTime(audio.currentTime || 0)}，共 ${formatTime(audio.duration)}`);
+  }
+  function renderPlayback() {
+    const playing = !audio.paused && !audio.ended;
+    icon($('musicPlay'), playing ? 'pause' : 'play');
+    $('musicPlay').setAttribute('aria-label', playing ? '暂停配乐' : '播放配乐');
+    $('musicPlay').setAttribute('aria-pressed', String(playing));
+    if (musicURL) $('musicStatus').textContent = playing ? '正在播放 · 本地音乐' : '本地音乐 · 随时播放';
+  }
+  function clearMusic() {
+    generation += 1; audio.pause(); audio.removeAttribute('src'); audio.load();
+    if (musicURL) URL.revokeObjectURL(musicURL); musicURL = null;
+    seeking = false; $('musicFile').value = '';
+    $('musicName').textContent = '给这封信添一点配乐'; $('musicName').removeAttribute('title');
+    $('musicStatus').textContent = '选择本地音乐 · 文件不会上传';
+    $('musicPlay').disabled = true; $('removeMusic').hidden = true;
+    $('chooseMusicLabel').textContent = '选择音乐'; $('musicTimeline').hidden = true;
+    renderPlayback(); renderProgress();
+  }
+  $('chooseMusic').addEventListener('click', () => $('musicFile').click());
+  $('musicFile').addEventListener('change', () => {
+    const file = $('musicFile').files[0];
+    if (!file) return;
+    if (!file.type.startsWith('audio/') && !/\.(mp3|wav|m4a|ogg|flac|aac|opus|aiff?|webm)$/i.test(file.name)) {
+      notify('请选择音频文件，例如 MP3、WAV 或 M4A。'); $('musicFile').value = ''; return;
+    }
+    clearMusic(); musicURL = URL.createObjectURL(file); audio.src = musicURL;
+    $('musicName').textContent = file.name; $('musicName').setAttribute('title', file.name);
+    $('musicPlay').disabled = false; $('removeMusic').hidden = false;
+    $('chooseMusicLabel').textContent = '换一首'; $('musicTimeline').hidden = false;
+    renderPlayback();
+  });
+  $('musicPlay').addEventListener('click', async () => {
+    if (!musicURL) return;
+    if (!audio.paused) { audio.pause(); return; }
+    const token = generation;
+    try { await audio.play(); } catch (_) {
+      if (token === generation) notify('这首音乐暂时无法播放，请试试 MP3 或 WAV 文件。');
+    }
+  });
+  audio.addEventListener('play', renderPlayback); audio.addEventListener('pause', renderPlayback);
+  audio.addEventListener('ended', renderPlayback);
+  audio.addEventListener('timeupdate', renderProgress);
+  audio.addEventListener('loadedmetadata', renderProgress);
+  audio.addEventListener('durationchange', renderProgress);
+  audio.addEventListener('error', () => {
+    if (!musicURL || !audio.getAttribute('src') || !audio.error) return;
+    clearMusic(); notify('无法读取这首音乐，请重新选择可播放的音频文件。');
+  });
+  $('musicSeek').addEventListener('input', () => {
+    seeking = true;
+    const percent = Number($('musicSeek').value) / 10;
+    $('musicSeek').style.setProperty('--progress', `${percent}%`);
+    if (durationAvailable()) $('currentTime').textContent = formatTime(percent / 100 * audio.duration);
+  });
+  $('musicSeek').addEventListener('change', () => {
+    if (durationAvailable()) audio.currentTime = Number($('musicSeek').value) / 1000 * audio.duration;
+    seeking = false; renderProgress();
+  });
+  $('removeMusic').addEventListener('click', clearMusic);
+  if (Number.isFinite(preferences.volume) && preferences.volume >= 0 && preferences.volume <= 100) $('volume').value = String(preferences.volume);
+  function updateVolume() {
+    const value = Number($('volume').value); audio.volume = value / 100;
+    $('volumeLabel').textContent = `${value}%`;
+  }
+  updateVolume(); $('volume').addEventListener('input', updateVolume);
+  $('volume').addEventListener('change', () => savePreference('volume', Number($('volume').value)));
+  function renderLoop() {
+    $('loopToggle').setAttribute('aria-pressed', String(audio.loop));
+    $('loopToggle').setAttribute('aria-label', audio.loop ? '关闭单曲循环' : '开启单曲循环');
+    $('loopToggle').title = audio.loop ? '单曲循环已开启' : '单曲循环已关闭';
+  }
+  if (typeof preferences.loop === 'boolean') audio.loop = preferences.loop;
+  renderLoop(); $('loopToggle').addEventListener('click', () => {
+    audio.loop = !audio.loop; savePreference('loop', audio.loop); renderLoop();
+  });
+  window.addEventListener('pagehide', () => audio.pause());
+  window.addEventListener('beforeunload', () => { audio.pause(); if (musicURL) URL.revokeObjectURL(musicURL); });
+})();
+
+  </script>
+</body>
+</html>
