@@ -13,7 +13,7 @@
 
 | 时间（原记录） | 改动说明 | 源码 | 下载 |
 |---|---|---|---|
-| 2026-10-12 03:15:45 | Create letter page with local music player | [cdad4b2682](https://github.com/qiuyimei/letter-to-you-2026/tree/cdad4b26824446b6325bb6c9eebc6316855f0db8) | [ZIP](https://github.com/qiuyimei/letter-to-you-2026/archive/cdad4b26824446b6325bb6c9eebc6316855f0db8.zip) |
+| 2026-10-12 03:15:45 | 变更 3 个文件（新增 3）；涉及 `index.html`<br>原始记录：Create letter page with local music player | [cdad4b2682](https://github.com/qiuyimei/letter-to-you-2026/tree/cdad4b26824446b6325bb6c9eebc6316855f0db8) | [ZIP](https://github.com/qiuyimei/letter-to-you-2026/archive/cdad4b26824446b6325bb6c9eebc6316855f0db8.zip) |
 
 ## 核验
 
