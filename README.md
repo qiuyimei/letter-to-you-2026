@@ -1,18 +1,29 @@
 <!-- project-showcase:start -->
-<p align="center"><img src="docs/showcase/cover.svg" width="100%" alt="给你的信 · 独立书信网页" /></p>
-<p align="center"><b>书信排版 · 页面交互 · 独立网页</b></p>
-<p align="center"><a href="#作品画面">看作品</a>　 ·　 <a href="ITERATION_HISTORY.md">历次迭代</a>　 ·　 <a href="https://github.com/qiuyimei/letter-to-you-2026/archive/refs/heads/main.zip">下载源码</a>　 ·　 <a href="https://github.com/qiuyimei/codex-old-deliverables-20261031#作品图录">全部作品</a></p>
+<div align="center">
 
-**给你的信** · 独立书信网页。
+## 给你的信 · 一纸心意
+
+把一封写给朋友的信，做成可以慢慢阅读的网页。
+
+**信笺排版 · 四章导航 · 大字与专注阅读 · 本地配乐**
+
+[看作品](#作品画面) · [下载网页源码](index.html) · [历次迭代](ITERATION_HISTORY.md) · [全部作品](https://github.com/qiuyimei/codex-old-deliverables-20261031#作品图录)
+
+</div>
 
 ## 作品画面
 
-<p align="center"><a href="docs/showcase/preview-01.jpg"><img src="docs/showcase/preview-01.jpg" width="480" alt="书信网页预览" /></a><br/><sub>书信网页预览</sub></p>
+<p align="center"><a href="docs/showcase/overview.png"><img src="docs/showcase/overview.png" width="100%" alt="一纸心意五场景组合：桌面首页、专注阅读、本地配乐、大字正文与结语落款" /></a></p>
+
+<p align="center"><sub>点击查看完整组合图；下方可分别打开各张原图。</sub></p>
+
+<p align="center"><a href="docs/showcase/letter-desktop.png">首页与章节</a> · <a href="docs/showcase/letter-focus.png">专注阅读</a> · <a href="docs/showcase/letter-music.png">本地配乐</a> · <a href="docs/showcase/letter-large-type.png">大字正文</a> · <a href="docs/showcase/letter-signature.png">结语落款</a></p>
 
 ## 从这里开始
 
 | 想做什么 | 入口 |
 | --- | --- |
+| 下载当前网页并在本机打开 | [index.html](index.html) |
 | 查看每次迭代、日期与改动 | [历史版本目录](ITERATION_HISTORY.md) |
 | 下载当前完整源码 | [当前版本 ZIP](https://github.com/qiuyimei/letter-to-you-2026/archive/refs/heads/main.zip) |
 | 浏览当前工程 | [仓库文件](.) |
