@@ -7,7 +7,7 @@
 
 **信笺排版 · 四章导航 · 大字与专注阅读 · 本地配乐**
 
-[看作品](#作品画面) · [下载网页源码](index.html) · [历次迭代](ITERATION_HISTORY.md) · [全部作品](https://github.com/qiuyimei/codex-old-deliverables-20261031#作品图录)
+[看作品](#作品画面) · [下载网页源码](index.html) · [历次迭代](ITERATION_HISTORY.md) · [全部作品](https://github.com/qiuyimei/project-collection#作品图录)
 
 </div>
 
